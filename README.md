@@ -17,64 +17,37 @@
 
 ## 🌟 核心特性 (Key Features)
 
-- 📸 **全画幅纯净无遮挡（Full-Bleed & Clean）**：去除生硬黑边与多余元素，完整保留人物神态与环境构图。
-- 🌅 **通透平滑的 90s 胶片影调（Continuous Color Science）**：采用严格单调连续的胶片调色曲线，**100% 杜绝色阶断层、绿紫坏斑与假打光**，肤色温润通透。
-- ⏳ **90s 经典胶卷相机时间戳（Delicate Yellow Timestamp）**：角落点缀精致微小的 LCD/LED 怀旧时间码（如 `'97  7 16` / `'95 11 12` / `'97  4 16`）。
-- 🎞️ **多重经典画框支持**：支持 `full-bleed`（纯净全画幅）、`film`（35mm 柯达齿孔底片框）、`cinema`（2.39:1 宽荧幕中英双语字幕）。
+- 📸 **全画幅纯净无遮挡（Full-Bleed & Clean）**：去除生硬黑边与多余元素，完整保留真实构图与胶片氛围。
+- 🌅 **通透平滑的 90s 胶片影调（Continuous Color Science）**：采用严格单调连续的胶片调色曲线，**100% 杜绝色阶断层、杂色坏斑与假打光**。
+- ⏳ **90s 经典胶卷相机时间戳（Delicate Yellow Timestamp）**：角落点缀精致微小的 LCD/LED 怀旧时间码（如 `'95 11 12`）。
 - ✍️ **王家卫语录生成引擎（Monologue Engine）**：多模态大模型（VLM）提示词驱动，自动生成包含“精确时间戳 + 微观空间距离 + 保质期隐喻”的王家卫式电影旁白。
 - 🤖 **全能复合生态**：既是可直接接入 **Antigravity / Claude Code / Cursor / GPTs** 的标准 `SKILL.md`，也是无需付费 API 的**纯本地 Python 命令行工具**。
 
 ---
 
-## 🖼️ 官方实战展厅 · 5 张金标港风全集 (Showcase Gallery)
+## 🖼️ 官方实战展厅 · 经典前后对比 (Before & After Showcase)
 
-### 📸 场景一 · 《自由的夏日》 (Freedom & Twilight · 官方基准)
-<p align="center">
-  <img src="examples/gold_standard_01.jpg" width="460" alt="Showcase 1">
-</p>
+### 🚕 经典呈现 · 《弥敦道 · 红色的士》 (HK Red Taxis at Night)
 
-* **【美学特点】**：温润通透的夕阳天际线，红裙色泽自然饱满，左上角微小的 `'97 7 16` 黄色时间印记。
-* **【王家卫独白】**：“我一直以为，有些夏天永远不会过去。那天在海边，我逆着光站了很久。后来我才发现，有些事情你想留是留不住的，就像海水退潮，天总会黑。”
+<div align="center">
+  <table>
+    <tr>
+      <th width="50%" align="center">📷 原始日常实拍 (Original Photo)</th>
+      <th width="50%" align="center">🎞️ 港风胶片重塑 (WKW Film Grade)</th>
+    </tr>
+    <tr>
+      <td align="center"><img src="examples/taxi_before.jpg" width="380" alt="Taxi Before"></td>
+      <td align="center"><img src="examples/taxi_after.jpg" width="380" alt="Taxi After"></td>
+    </tr>
+  </table>
+</div>
 
----
-
-### 📸 场景二 · 《海边的青椰》 (Dusk Stroll & Coconut)
-<p align="center">
-  <img src="examples/gold_standard_02.jpg" width="620" alt="Showcase 2">
-</p>
-
-* **【美学特点】**：层叠涌动的青绿海浪，暖夕阳侧光勾勒出自然生动的五官与笑颜，右下角 `'94 5 1'`。
-* **【王家卫独白】**：“秋刀鱼会过期，肉酱会过期，连保鲜纸都会过期。我抱着这颗青椰子在海边走了四十分钟，我想知道，这个夏天的记忆，到底能保存多久。”
-
----
-
-### 📸 场景三 · 《回眸凝视》 (The Gaze)
-<p align="center">
-  <img src="examples/gold_standard_03.jpg" width="460" alt="Showcase 3">
-</p>
-
-* **【美学特点】**：推墨镜经典眼神与锁骨光影，深青蓝海面衬托红裙，右上角微小的 `'95 8 29'`，质感清透高级。
-* **【王家卫独白】**：“那天晚上浪很大，她推下墨镜看我的那一瞬间，我们之间的距离只有0.01公分。五十七秒之后，她什么都没有说，只是转身重新走回了夜色里。”
-
----
-
-### 🚕 场景四 · 《弥敦道 · 红色的士》 (HK Red Taxis at Night)
-<p align="center">
-  <img src="examples/gold_standard_04_taxi.jpg" width="460" alt="Taxi Night">
-</p>
-
-* **【美学特点】**：深冷青蓝沥青柏油路面，经典香港皇冠红色出租车浓郁车漆与发光车顶灯，左上角 `'95 11 12'`。
-* **【王家卫独白】**：“在香港，每天有两万四千辆红色的士在路上跑。从尖沙咀到旺角，总共要拐十四个弯。那天晚上，我和前面那辆车最近的时候，距离只有两米。后来绿灯亮了，它向左转，我向右转。”
-
----
-
-### 🕶️ 场景五 · 《维多利亚港 · 无脚鸟的下午》 (Victoria Harbour Portrait)
-<p align="center">
-  <img src="examples/gold_standard_05_man.jpg" width="460" alt="Man at Harbour">
-</p>
-
-* **【美学特点】**：面部光影均匀通透白皙，维港海水深邃青蓝，黑色墨镜与西装层次分明，右上角微小的 `'97 4 16'`。
-* **【王家卫独白】**：“一九九七年四月十六日下午四点十六分，加州阳光照在维多利亚港。我戴着墨镜在海边站了一分钟，海水很蓝，风很轻。我不知道那只没有脚的鸟飞去了哪里，但我知道，这一分钟，谁都抢不走。”
+> **【时间坐标】** `'95 11 12`  
+> **【王家卫独白】** “在香港，每天有两万四千辆红色的士在路上跑。从尖沙咀到旺角，总共要拐十四个弯。那天晚上，我和前面那辆车最近的时候，距离只有两米。后来绿灯亮了，它向左转，我向右转。”  
+> **【视觉重塑特点】**：
+> * **青冷沥青暗部**：深冷青蓝夜色柏油路面，还原《堕落天使》《重庆森林》的迷离午夜质感。
+> * **浓郁朱红车漆**：经典香港皇冠红色出租车车漆层次鲜活、富有胶片厚重感。
+> * **发光车顶灯与时间码**：车顶灯微红晕（Halation）漫射，左上角点缀极简微小的黄色 `'95 11 12` 时间印记。
 
 ---
 
@@ -84,6 +57,8 @@
 
 #### 方式 A：通过 Git 直接安装（推荐）
 ```bash
+git clone https://github.com/bazz1111/wkw-lens.git
+cd wkw-lens
 pip install -e .
 ```
 
@@ -100,7 +75,7 @@ pip install pillow numpy
 
 #### 🌟 基础用法：全画幅纯净胶片（带经典时间戳）
 ```bash
-wkw-lens my_photo.jpg -t "'97  7 16"
+wkw-lens my_photo.jpg -t "'95 11 12"
 ```
 
 #### 🚕 夜景与街景模式（增强深青与浓郁红调）
@@ -110,12 +85,12 @@ wkw-lens taxi.jpg -s night -t "'95 11 12" --pos top-left
 
 #### 🎞️ 渲染 35mm 柯达胶卷齿孔画框
 ```bash
-wkw-lens portrait.jpg -f film -o my_film_still.jpg
+wkw-lens photo.jpg -f film -o my_film_still.jpg
 ```
 
 #### 🎬 渲染 2.39:1 电影宽荧幕与双语字幕
 ```bash
-wkw-lens beach.jpg -f cinema -zh "有些事情你想留是留不住的" -en "SOME THINGS YOU CANNOT KEEP"
+wkw-lens photo.jpg -f cinema -zh "有些事情你想留是留不住的" -en "SOME THINGS YOU CANNOT KEEP"
 ```
 
 #### ⚙️ CLI 参数完整列表
@@ -123,7 +98,7 @@ wkw-lens beach.jpg -f cinema -zh "有些事情你想留是留不住的" -en "SOM
 | :--- | :--- | :--- | :--- |
 | `--style` | `-s` | `wkw`, `night`, `romance` | 影调预设：`wkw`（通用经典）, `night`（夜景/出租车）, `romance`（温润文艺） |
 | `--frame` | `-f` | `none`, `film`, `cinema` | 画框排版：`none`（全画幅）, `film`（35mm胶卷框）, `cinema`（宽荧幕字幕） |
-| `--timestamp` | `-t` | 文本 / `'none'` | 黄色复古时间戳（如 `"'97 7 16"`，传 `'none'` 可关闭） |
+| `--timestamp` | `-t` | 文本 / `'none'` | 黄色复古时间戳（如 `"'95 11 12"`，传 `'none'` 可关闭） |
 | `--pos` | | `top-left`, `top-right`, `bottom-right` | 时间戳位置（默认: `top-left`） |
 | `--chinese` | `-zh` | 文本 | 中文字幕内容（仅在 `-f cinema` 下生效） |
 | `--english` | `-en` | 文本 | 英文字幕内容（仅在 `-f cinema` 下生效） |
@@ -137,13 +112,13 @@ from PIL import Image
 from src.color_grading import grade_image
 from src.candid_processor import add_delicate_timestamp
 
-# 打开照片并进行港风调色
-img = Image.open("photo.jpg")
-graded = grade_image(img, style="wkw")
+# 打开照片并进行港风夜景调色
+img = Image.open("taxi.jpg")
+graded = grade_image(img, style="night")
 
 # 添加 90s 复古时间戳
-final_img = add_delicate_timestamp(graded, timestamp_str="'97  7 16", position="top-left")
-final_img.save("output_wkw.jpg", quality=98)
+final_img = add_delicate_timestamp(graded, timestamp_str="'95 11 12", position="top-left")
+final_img.save("output_taxi_wkw.jpg", quality=98)
 ```
 
 ---
@@ -163,7 +138,7 @@ final_img.save("output_wkw.jpg", quality=98)
 ## 📂 项目结构 (Repository Structure)
 
 ```text
-wong-kar-wai-lens/
+wkw-lens/
 ├── README.md                  # 中英双语项目介绍与官方展厅
 ├── SKILL.md                   # Agent Skill 标准规范定义
 ├── LICENSE                    # MIT 开源协议
@@ -182,19 +157,10 @@ wong-kar-wai-lens/
 │   ├── frame_renderer.py      # 2.39:1 CinemaScope 与 35mm 齿孔胶卷框生成
 │   ├── subtitle_engine.py     # 经典港片黄字黑边中英双语字幕渲染
 │   └── pipeline.py            # 端到端处理管线
-└── examples/                  # 官方 Showcase 展厅样片
+└── examples/                  # 官方 Showcase 前后对比样片
+    ├── taxi_before.jpg        # 原始实拍
+    └── taxi_after.jpg         # 港风胶片重塑成片
 ```
-
----
-
-## 🤝 参与贡献 (Contributing)
-
-欢迎提交 Issue 与 PR 扩充更多港片导演风格、LUT 查找表或优化排版字体！
-1. Fork 本仓库
-2. 创建分支 (`git checkout -b feature/cool-preset`)
-3. 提交更改 (`git commit -m 'Add new cinema preset'`)
-4. 推送分支 (`git push origin feature/cool-preset`)
-5. 开启 Pull Request
 
 ---
 
